@@ -1,0 +1,60 @@
+{
+	"name": "simple-product-tabs-for-woocommerce",
+	"title": "Simple WooCommerce Product Tabs (Free)",
+	"version": "1.0.0",
+	"license": "GPL-2.0+",
+	"main_file": "simple-product-tabs-for-woocommerce.php",
+	"author": "Solution Box <solutionboxdev@gmail.com>",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sharazghouri/simple-product-tabs-for-woocommerce.git"
+	},
+	"directories": {
+		"lib": "lib"
+	},
+	"scripts": {
+		"build": "wp-scripts build",
+		"check-engines": "wp-scripts check-engines",
+		"check-licenses": "wp-scripts check-licenses",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"lint:md:docs": "wp-scripts lint-md-docs",
+		"lint:pkg-json": "wp-scripts lint-pkg-json",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start",
+		"test:e2e": "wp-scripts test-e2e",
+		"test:unit": "wp-scripts test-unit-js",
+		"translate": "wp i18n make-pot ./ languages/simple-products-tabs-for-woocommerce.pot"
+	},
+	"bugs": {
+		"url": "https://github.com/sharazghouri/simple-product-tabs-for-woocommerce/issues"
+	},
+	"homepage": "https://github.com/sharazghouri/simple-product-tabs-for-woocommerce#readme",
+	"devDependencies": {
+		"@wordpress/dependency-extraction-webpack-plugin": "^4.8.0",
+		"@wordpress/scripts": "^26.4.0",
+		"@wordpress/i18n": "^4.58.0",
+		"gulp": "^4.0.2"
+	},
+	"files":[
+		"admin/**",
+		"build/**",
+		"assets/**",
+		"includes/**",
+		"languages/**",
+		"templates/**",
+		"public/**",
+		"simple-product-tabs-for-woocommerce.php",
+		"uninstall.php",
+		"changelog.*",
+		"license.*",
+		"readme.*",
+		"src/**/",
+		"vendor/**/",
+		"composer.json"
+	],
+	"dependencies": {
+	}
+}
